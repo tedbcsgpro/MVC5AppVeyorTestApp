@@ -10,6 +10,7 @@ namespace MVC5AppVeyorTestApp.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Index Message";
             return View();
         }
 
